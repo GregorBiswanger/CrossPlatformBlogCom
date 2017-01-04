@@ -20,13 +20,13 @@ body {
 // Colors
 // --------------------------------------------------
 $base-color				 : rgba(#222,0.8);
-$header-color			 : rgba(55, 50, 119, 100);
+$header-color			 : #373277;
 $sub-item-color			 : rgba(#000, 0.1);
-$header-margin			 : #F45145;
+$header-margin			 : rgba(251, 209, 9, 1);
 $menu-top				 : white;
 $menu-height			 : 70px;
-$menu-overflow			 : rgba(55, 50, 119, 100);
-$body-color      		 : #e8e8e8;
+$menu-overflow			 : #373277;
+$body-color      		 : #474282;
 $text-color      		 : rgba(#222,0.8);
 $comp-color 	 		 : complement(#222);
 $border-color    		 : lighten(#222,60);
