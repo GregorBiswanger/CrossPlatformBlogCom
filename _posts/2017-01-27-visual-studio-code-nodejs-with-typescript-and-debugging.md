@@ -63,7 +63,7 @@ From line 3, a Web server is already being created. When calling, the anonymous 
 With the `listen` function, the current web server is activated for the defined port. That’s it!  
   
 ## Start the TypeScript compiler with Visual Studio Code 
-The TypeScript file was written, but a JavaScript file is needed to run it. The key combination `[Ctrl] + [b]` prompts Visual Studio code to build the project. Alternatively, you can open the command line with `[F1]` and type `Build`. Now Visual Studio Code does not know what exactly it should do. So it will ask you, what exactly you want. We choose `TypeScript - tsconfig.json` here.  
+The TypeScript file was written, but a JavaScript file is needed to run it. The key combination `[Ctrl] + [Shift] + [b]` prompts Visual Studio Code to build the project. Alternatively, you can open the command line with `[F1]` and type `Build`. Now Visual Studio Code does not know what exactly it should do. So it will ask you, what exactly you want. We choose `TypeScript - tsconfig.json` here.  
   
 <figure>
 	<a href="/images/02/vscode-no-task-runner-configured.jpg"><img src="/images/02/vscode-no-task-runner-configured.jpg" alt="Visual Studio Code - No task runner configured"></a>
@@ -73,7 +73,7 @@ The TypeScript file was written, but a JavaScript file is needed to run it. The 
 	<a href="/images/02/vscode-select-a-task-runner-typescript.jpg"><img src="/images/02/vscode-select-a-task-runner-typescript.jpg" alt="Visual Studio Code - Select a task runner"></a>
 </figure>
 
-A new directory is created with `.vscode` and a tasks.json file is created. The pleasant thing about this template is that all relevant settings are already stored. So we can close this file and call the build process again with `[Ctrl] + [b]`. Left below we can see a rotating character and in File Explorer we can see two new files for our TypeScript file. One is the generated JavaScript file and the other is the  SourceMap file which is required for debugging.  
+A new directory is created with `.vscode` and a tasks.json file is created. The pleasant thing about this template is that all relevant settings are already stored. So we can close this file and call the build process again with `[Ctrl] + [Shift] + [b]`. Left below we can see a rotating character and in File Explorer we can see two new files for our TypeScript file. One is the generated JavaScript file and the other is the  SourceMap file which is required for debugging.  
    
 ## Debug the Node.js application 
 There are different ways to run the application. One way is to start from the terminal using `node index.js`, regardless of Visual Studio Code. The only bad thing is, we have no debugging comfort here. Therefore we use the second option: We press the `[F5]` key within Visual Studio Code to debug. Again, Visual Studio Code does not know what exactly it should run. We select `node.js`.  
