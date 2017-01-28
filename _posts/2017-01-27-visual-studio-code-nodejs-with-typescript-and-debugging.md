@@ -46,7 +46,7 @@ So you just need to write the first curly braces and IntelliSense will autocompl
 **Watch**: The watch option helps to prevent to start the TypeScript compiler before each debugging. It monitors all  TypeScript files for changes. If a file changes, the compiler is automatically activated. So the compiler has to be started only once.
   
 ## The first Node.js „Hello World“ 
-Now we create an index.ts file. The following code is required for a "Hello World" example:  
+Now we create an **index.ts** file. The following code is required for a "Hello World" example:  
   
 {% highlight javascript %}
 import http = require('http');
