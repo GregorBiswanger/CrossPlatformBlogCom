@@ -12,7 +12,8 @@ image:
 ---
 
 …which I get to know for more than 3 years with JavaScript. After more than 10 years as a .NET expert, it was definitely not an easy step to change my focus. I started as a developer in the business by using PHP. Back then, JavaScript was just a means to an end. I was glad, the lesser I had to use it.  
-
+<!-- more -->  
+  
 As excited and ideal platform I got attracted to .NET and C#. I have to admit, in between I gave Visual Basic a try, but it didn’t really made me happy.
 I was thrilled by Microsoft and .NET, so I organized a great community in my hometown [Ingolstadt](http://www.indot.net "INdotNET"){:target="_blank"}. I visited communities and conferences around the world and talked about my experiences. I initiated the biggest community roadshows with thousands of attendees. I also wrote books and articles for technical magazines. To make a long story short: I worked hard on my carrier and to be known in the Microsoft developer world.  
 

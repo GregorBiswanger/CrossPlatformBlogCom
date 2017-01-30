@@ -10,6 +10,7 @@ image:
 ---
 
 Visual Studio Code is a free code editor of Microsoft with an excellent TypeScript and Node.js development support. This blog post describes how easy it is to create a new Node.js project with TypeScript support. And at the end, we will also debug a small “Hello World” example.  
+  <!-- more -->  
   
 The example in this article provides to setup the following:  
 - [Node.js - http://www.nodejs.org](http://www.nodejs.org "www.nodejs.org"){:target="_blank"} (runs on Windows, Mac and Linux)   
