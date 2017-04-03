@@ -17,9 +17,11 @@ This kata is about making a simple string replacer. It is inspired by Corey Hain
 <!-- more -->  
   
 **Tests:**  
-input : "", dict empty, output:""  
-input : "\$temp\$", dict ["temp", "temporary"], output: "temporary"  
-input : "\$temp\$ here comes the name \$name\$", dict ["temp", "temporary"] ["name", "John Doe"], output : "temporary here comes the name John Doe"  
+**input:** "", **dictionary:** empty, **output:** ""  
+  
+**input:** "\$temp\$", **dictionary:** ["temp", "temporary"], **output:** "temporary"  
+  
+**input:** "\$temp\$ here comes the name \$name\$", **dictionary:** ["temp", "temporary"] ["name", "John Doe"], **output:** "temporary here comes the name John Doe"  
 
 **Difficulty:** Simple  
 **Duration:** Ca. 5-20 Minutes  
